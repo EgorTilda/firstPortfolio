@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-size: 16px;
@@ -37,9 +41,9 @@ img {
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    background-color: #284F8A;
-    /* background-image: url('./../img/header/header-bg.jpg');
-    background-size: cover; */
+    /* background-color: #284F8A; */
+    /* background-image: url('./../img/header/header-bg.jpg'); */
+    background-size: cover;
     background-position: center;
     position: relative;
 }
